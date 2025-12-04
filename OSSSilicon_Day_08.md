@@ -1,0 +1,90 @@
+# [Advent Calendar 2025 オープンソース半導体](https://qiita.com/advent-calendar/2025/osssilicon)の8日目の記事
+
+## 2025年12月13日（土）13：00〜17：10に「[2025年12月イベント「東海理化シャトルのオープンPDK解説会」(https://ishikai.connpass.com/event/374444/)」イベントを開催予定です！  
+
+ついに、[OpenSUSI](https://www.opensusi.org/)により日本初の商用ファブによる[オープンPDK](https://github.com/OpenSUSI/TR-1um)が公開されました！！！  
+そこで、OpenSUSIのメンバーによりそれらの解説や今後の予定、PDKの中身の解説を実施していただくことになりました。  
+どのようなPDKなのか？これによって、どのようなことが起こるのか？というお話をしていただきます。
+  
+さらに、現在ローカルでしか動作しないため、これを現代風にWeb系サービスで利用できるように、新規にDRC&LVSの製作をするプロジェクトも立ち上がるとのことです。  
+メンバーの募集なども実施するとのことですので、PDKの中身に興味のある方はぜひご参加ください！
+  
+
+## 日時
+* 2025年12月13日（土）13：00～17:00
+
+## 場所
+* [RISE-A カンファレンスC+D](https://www.rise-a.jp/access/index.html)
+    * 東京都中央区⽇本橋室町1-7-1　スルガビル7階
+
+## 参加申し込み 
+* [https://connpass.com/event/374444/](https://connpass.com/event/374444/)  
+    * [ISHI会忘年会](https://ishikai.connpass.com/event/374453/)
+
+## 参加費
+* 無料
+
+## 資料
+### プレゼン資料
+* [東海理化シャトルPDKの概要](https://ishi-kai.org/assets/presentation/event/202512/ISHI-KAI_event_202512_OpenIP62Summary.pdf)
+
+### チュートリアル資料
+* [オープンPDK](https://github.com/OpenSUSI/TR-1um)
+* [DRC チュートリアル](https://github.com/OpenSUSI/TR-1um/blob/main/Document/Tutorial_DRC.md)
+
+
+## 開発環境 
+* [セットアップスクリプト](https://github.com/ishi-kai/OpenEDA-PDK_SetupScript)
+    * 東海理化シャトルPDKをインストールしてください。
+
+## タイムテーブル
+- 13:00-13:10
+    - 講師：RISE-A
+    - 内容：RISE-A紹介（スポンサー枠）
+- 13:10-13:20
+    - 講師：OpenSUSI エバンジェリスト 高橋克己
+    - 内容：本オープンPDKを運営管理するOpenSUSIの紹介
+- 13:20-13:40
+    - 内容：[東海理化シャトルPDKの概要](https://ishi-kai.org/assets/presentation/event/202512/ISHI-KAI_event_202512_OpenIP62Summary.pdf)
+- 13:40-14:40 
+    - 講師：OpenSUSI 代表理事 jun1okamura
+    - 内容：東海理化シャトルDRCとLVSの製作の概要と中身の解説
+        - [DRC チュートリアル](https://github.com/OpenSUSI/TR-1um/blob/main/Document/Tutorial_DRC.md)
+- 14:40-14:50
+    - 休憩＆情報交換
+- 14:50-15:20 
+    - 講師：Mitch Bailey
+    - 内容：LVS詳解
+        - 下記の資料をベースにLVSなどの詳しく解説します。
+            - [https://github.com/msaligane/US_Japan_Semiconductor_Workshop/blob/main/Day%202%20-%201505%20-%20Pitfalls%20of%20Open-Source%20Chip%20Design%20Verification/Japan-US-Workshop-Bailey.pptx](https://github.com/msaligane/US_Japan_Semiconductor_Workshop/blob/main/Day%202%20-%201505%20-%20Pitfalls%20of%20Open-Source%20Chip%20Design%20Verification/Japan-US-Workshop-Bailey.pptx)
+        - 日本語での発表なのでご安心ください。
+- 15:20-15:50 
+    - 講師：SIGの遊び場 ほうた
+    - 内容：オープンソースPDKの歩き方🚶
+        - そもそもPDKって？
+        - PDKを“読む”ならどこから？
+        - PDKを“自作”するなら何から？
+        - これまでやって来た事の実例
+- 15:50-16:10 （2025/11/22に追加になりました）
+    - 講師：半導体技術コンサルタント（株式会社メガチップス　技術顧問） 吉富
+    - 内容：超最先端微細デバイスGate All Around FETの技術を覗いてみよう。
+        - GPUチップに搭載されるトランジスタ数は100億個に迫っています。そこではGate All Around FETというトランジスタが使われます。
+        - CMOSとの構造の違い、PDKを使う場合にどんな試練が待っているのか？を解説します。
+- 16:10-16:40
+    - パネラー：jun1okamura x ほうた x Mitch Bailey x 吉富 
+    -  内容：PDK対談
+        - 某国内大手でPDK開発を行っている商用PDKのエキスパートであるほうた氏とeFabless社などで提出されたGDSの構造チェックやPDKのメンテナンスなどを行っていたオープンPDKのエキスパートであるMitch Bailey氏に加えて、某半導体企業でPDK開発やコンサルを行っている吉富氏を交えて、PDKについて大いに語っていただく予定です。
+- 16:40-17:10
+    - パネラー：jun1okamura x ほうた x Mitch Bailey x Sadayuki Yoshitomi
+    - 内容：PDK対談・本音編（これよりオンライン配信は行いません）
+        - 上記の続きで、公には言えないことを語っていただく予定です。ある意味、ここが本番かもしれません。
+
+
+## 謎のコメント
+![謎のコメント](https://ishi-kai.org/assets/images/event/202512/houta.png)
+- [ISHI会一周年記念イベント～大討論会～](https://ishikai.connpass.com/event/315799/)
+
+
+## 協力
+* [RISE-A](http://rise-a.jp/) 様のご厚意によりリアル会場を提供していただきました。
+
