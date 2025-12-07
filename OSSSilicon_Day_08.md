@@ -1,6 +1,6 @@
 # [Advent Calendar 2025 オープンソース半導体](https://qiita.com/advent-calendar/2025/osssilicon)の8日目の記事
 
-## 2025年12月13日（土）13：00〜17：10に「[2025年12月イベント「東海理化シャトルのオープンPDK解説会」(https://ishikai.connpass.com/event/374444/)」イベントを開催予定です！  
+## 2025年12月13日（土）13：00〜17：10に「[2025年12月イベント「東海理化シャトルのオープンPDK解説会」](https://ishikai.connpass.com/event/374444/)」イベントを開催予定です！  
 
 ついに、[OpenSUSI](https://www.opensusi.org/)により日本初の商用ファブによる[オープンPDK](https://github.com/OpenSUSI/TR-1um)が公開されました！！！  
 そこで、OpenSUSIのメンバーによりそれらの解説や今後の予定、PDKの中身の解説を実施していただくことになりました。  
