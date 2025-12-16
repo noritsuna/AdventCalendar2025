@@ -81,3 +81,8 @@ DRCにCUPとアンテナルールが追加され、もろに引っかかった�
         - These structures are found inside the foundry-provided I/O cells, so this change should help reduce antenna violations in some cases.
     - Project Template 1.3.3
     - Precheck 1.5.3
+- 2025/12/16
+    - PDK 1.6.6
+    - Project Template 1.3.5
+    - Precheck 1.5.4
+        - This update fixes a regression introduced in the previous update (sorry!).
